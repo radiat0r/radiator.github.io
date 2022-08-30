@@ -1,11 +1,11 @@
 # Site settings
-title: radiator
-description: This is a radixDLT based project site.
+title: Radiator
+description: A radixDLT based project node.
 url: "http://www.radiator.run" # the base hostname & protocol for your site
 # baseurl: "" # the subpath of your site, e.g. /blog
 
 # User settings
-username: Adam Jaamour
+username: radiator
 email: info@radiator.run
 
 # Global settings
