@@ -11,7 +11,7 @@
 }
 
 /* Clear floats after the columns */
-.education-row:after {
+.project-row:after {
     content: "";
     display: table;
     clear: both;
@@ -19,7 +19,7 @@
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .education-column {
+    .project-column {
         width: 100%;
     }
 }
@@ -42,7 +42,7 @@ hr.dashed-line { /* used between projects */
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
-/* Third type of content div (for education and work experiences) */
+/* Third type of content div (for project-info experiences) */
 .user-details-bis {
     text-align: center;
     margin: 5px auto
