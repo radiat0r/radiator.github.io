@@ -1,10 +1,10 @@
 /*
  * Custom CSS classes to modify theme and library stylesheets.
- * Author: Adam Jaamour
+ * Author: radiator
  */
 
 /* Create three equal columns that floats next to each other */
-.education-column {
+.project-column {
     float: left;
     width: 33.33%;
     padding: 0px;
