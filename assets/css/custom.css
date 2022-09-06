@@ -3,6 +3,7 @@
  * Author: radiator
  */
 
+	
 /* Create three equal columns that floats next to each other */
 .project-column {
     float: left;
@@ -85,4 +86,23 @@ hr.dashed-line { /* used between projects */
     position: relative;
     bottom: 1ex;
     font-size: 80%;
+}
+
+.tokenomics{
+	text-align: center;
+    margin: 5px auto
+}
+
+#particles-js {
+    background: #2a57a1;
+    display: flex;
+    vertical-align: bottom;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+}
+
+#particles-js .particles-js-canvas-el {
+    height: 100vh !important
 }

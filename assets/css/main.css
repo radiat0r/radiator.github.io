@@ -4366,8 +4366,13 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    color: #84CEEB;
-    font-family: 'Antic Slab', serif
+    color: #311155;
+    font-family: 'Antic Slab', serif;
+	background: rgb(42,87,161);
+	background: -moz-linear-gradient(90deg, rgba(42,87,161,1) 0%, rgba(69,139,255,1) 50%, rgba(42,87,161,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(42,87,161,1) 0%, rgba(69,139,255,1) 50%, rgba(42,87,161,1) 100%);
+	background: linear-gradient(90deg, rgba(42,87,161,1) 0%, rgba(69,139,255,1) 50%, rgba(42,87,161,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a57a1",endColorstr="#2a57a1",GradientType=1);
 }
 
 article, aside, figcaption, figure, footer, header, nav, section {
@@ -4378,7 +4383,7 @@ h1, h2, h3, h4, stong {
     margin-top: 0.5em;
     padding-top: 0.5em;
     line-height: 1.25;
-    color: #333
+    color: #311155
 }
 
 h1 {
@@ -4443,20 +4448,6 @@ sub, sup {
         opacity: 1;
         top: -10px
     }
-}
-
-#particles-js {
-    background: #2a57a1;
-    display: flex;
-    vertical-align: bottom;
-    min-height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed
-}
-
-#particles-js .particles-js-canvas-el {
-    height: 100vh !important
 }
 
 .header {

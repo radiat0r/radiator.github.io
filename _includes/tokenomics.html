@@ -1,0 +1,63 @@
+<div class="tokenomics">
+	<h1>100.000.000 RADIATOR</h1>
+  <canvas id="tokenomicsChart"></canvas>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+  const labels = [
+    'Team',
+    'Airdrops',
+    'Presale',
+	'Consulting',
+	'Rewards',
+	'Marketing'
+  ];
+
+
+  const data = {
+    labels: labels,
+    datasets: [{
+		label: 'Tokenomics of the Radiator Coin',
+		data: [10, 20, 20, 20, 20, 10],
+		hoverBorderColor: '#458bff',
+		backgroundColor: [
+			'#311155',
+			'#211C7C',
+			'#4581AF',
+			'#60A6BD',
+			'#98D7CF',
+			'#D2EFE0'
+		],
+    hoverOffset: 24
+    }]
+  };
+
+
+  
+  // Note: changes to the plugin code is not reflected to the chart, because the plugin is loaded at chart construction time and editor changes only trigger an chart.update().
+	const plugin_canvas_background = {
+	id: 'custom_canvas_background_color',
+	beforeDraw: (chart) => {
+			const {ctx} = chart;
+			ctx.save();
+			ctx.globalCompositeOperation = 'destination-over';
+			ctx.fillStyle = '#2a57a1';
+			ctx.fillRect(0, 0, chart.width, chart.height);
+			ctx.restore();
+		}
+	};
+
+  const config = {
+    type: 'doughnut',
+    data: data,
+	plugins: {},
+    options: {}
+  };
+
+  const tokenomicsChart = new Chart(
+    document.getElementById('tokenomicsChart'),
+    config
+  );
+</script>

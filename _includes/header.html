@@ -16,4 +16,12 @@
         </div>
     </div>
     <a class="down" href="#about" data-scroll><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
+	
+	<script src="{{ '/assets/js/particles.js' | prepend: site.baseurl }}"></script>
+	<script>
+		particlesJS.load('particles-js', '/assets/js/particles.json',
+		function(){
+			console.log('particles.json loaded...')
+		})
+	</script>
 </div>
