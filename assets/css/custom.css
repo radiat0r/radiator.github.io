@@ -3,6 +3,13 @@
  * Author: radiator
  */
 
+ body {
+   background: rgb(42,87,161);
+  background: -moz-linear-gradient(90deg, rgba(42,87,161,1) 36%, rgba(42,87,161,0.8631653344931722) 50%, rgba(42,87,161,1) 63%);
+  background: -webkit-linear-gradient(90deg, rgba(42,87,161,1) 36%, rgba(42,87,161,0.8631653344931722) 50%, rgba(42,87,161,1) 63%);
+  background: linear-gradient(90deg, rgba(42,87,161,1) 36%, rgba(42,87,161,0.8631653344931722) 50%, rgba(42,87,161,1) 63%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2a57a1",endColorstr="#2a57a1",GradientType=1); 
+ }
 
 /* Create three equal columns that floats next to each other */
 .project-column {
