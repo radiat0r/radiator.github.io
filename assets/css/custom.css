@@ -3,7 +3,7 @@
  * Author: radiator
  */
 
-	
+
 /* Create three equal columns that floats next to each other */
 .project-column {
     float: left;
@@ -18,11 +18,217 @@
     clear: both;
 }
 
+.header {
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+@media only screen and (min-width: 768px) {
+    .header .site-title {
+        margin: 0;
+        font-size: 70px
+    }
+}
+
+.header .site-title {
+    font-size: 50px;
+    display: block;
+    line-height: 1;
+    color: #fff
+}
+
+
+
+.header .site-description {
+    font-size: 20px;
+    display: block;
+    line-height: 1;
+    color: #fff;
+    margin-top: 10px
+}
+
+.header-icons, .project-icons {
+    display: flex;
+    justify-content: center;
+    text-align: center
+}
+
+.header-icons a {
+    outline: 0 !important;
+    border: none !important;
+    outline-style: none !important;
+    -moz-outline-style: none !important
+}
+
+.down, .header-icons, .project-icons, .icon {
+    color: #fff;
+    text-align: center
+}
+
+.header-icons .icon {
+    height: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .5s;
+    width: 20px;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid #fff
+}
+
+.project-icons .icon {
+    display: inline-block;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all .5s;
+    width: 50px;
+    font-size: 25px;
+    margin: 5px;
+    border: 2px solid #fff
+}
+
+.header-icons .icon:active, .header-icons .icon:hover, .project-icons .icon:active, .project-icons .icon:hover {
+    color: #1a222c;
+    background: #fff
+}
+
+@media only screen and (min-width: 768px) {
+    .header-icons .icon {
+        width: 35px;
+        height: 35px;
+        font-size: 30px
+    }
+}
+
+.down {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+    outline: 0 !important;
+    border: none !important;
+    outline-style: none !important;
+    -moz-outline-style: none !important
+}
+
+.down .icon {
+    position: absolute;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+    -webkit-animation: pulse 1.3s infinite;
+    animation: pulse 1.3s infinite
+}
+
+.down .icon:active, .down .icon:hover, .footer a:active, .footer a:hover {
+    color: #4b5664
+}
+
+.fa-envelope:before {
+    content: "\f0e0"
+}
+
+.fa-telegram:before {
+    content: "\f2c6"
+}
+
+.fa-twitter:before {
+    content: "\f099"
+}
+
+.fa-refresh:before {
+    content: "\f021"
+}
+
+.fa-usd:before {
+    content: "\f155"
+}
+
+.fa-database:before {
+    content: "\f1c0"
+}
+
+.fa-chevron-down:before {
+    content: "\f078"
+}
+
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(../fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(../fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(../fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+
+@keyframes pulse {
+    0%, to {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+        filter: alpha(opacity=40);
+        opacity: .4;
+        top: 0
+    }
+    50% {
+        -ms-filter: none;
+        -webkit-filter: none;
+        filter: none;
+        opacity: 1;
+        top: -10px;
+    }
+}
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
     .project-column {
         width: 100%;
     }
+}
+
+.tech {
+    margin: 10px;
+    flex: 1 1 0
+}
+
+.tech h2, .tech h3, .user-details h1, body {
+    font-weight: 400
+}
+
+.user {
+    text-align: center;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.user p {
+    font-size: 16px
 }
 
 .work-text {
@@ -63,34 +269,9 @@ hr.dashed-line { /* used between projects */
     margin-right: 15px;
 }
 
-/* Recommended book readings */
-.zoom-container {
-    transition: transform .2s;
-    box-sizing: border-box;
-    margin: 25px 40px 25px;
-    text-align: center
-}
-.zoom-container:hover {
-    -ms-transform: scale(1.25); /* IE 9 */
-    -webkit-transform: scale(1.25); /* Safari 3-8 */
-    transform: scale(1.25);
-}
-.book-zoom {
-    max-height: 275px;
-    display: block;
-    margin: 0 auto;
-}
-
-/* Mathematical expressions */
-.sup {
-    position: relative;
-    bottom: 1ex;
-    font-size: 80%;
-}
-
 .tokenomics{
 	text-align: center;
-    margin: 5px auto
+    margin: 30px auto
 }
 
 #particles-js {

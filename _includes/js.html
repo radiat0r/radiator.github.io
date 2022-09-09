@@ -1,0 +1,94 @@
+<!-- jQuery -->
+<script src="{{ site.baseurl }}/assets/js/jquery.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
+<!-- Plugin JavaScript -->
+<script src="{{ site.baseurl }}/assets/js/jquery.easing.min.js"></script>
+
+
+	<script src="{{ '/assets/js/typewriter.js' | prepend: site.baseurl }}"></script>
+	<script src="{{ '/assets/js/clipboard.min.js' | prepend: site.baseurl }}"></script>
+	<script src="{{ '/assets/js/copy.js' | prepend: site.baseurl }}"></script>
+
+
+
+
+
+	<script src="{{ site.baseurl }}/assets/js/navbar.js"></script>
+
+	<script src="{{ '/assets/js/particles.js' | prepend: site.baseurl }}"></script>
+	<script>
+		particlesJS.load('particles-js', '/assets/js/particles.json',
+		function(){
+			console.log('particles.json loaded...')
+		})
+	</script>
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+	<script>
+		const labels = [
+		'Team & Development',
+		'Airdrops & Presale',
+		'Consulting & Advisors',
+		'Marketing & Promotion',
+		'Incentives & Rewards'
+		];
+
+
+		const data = {
+			labels: labels,
+			datasets: [{
+				label: 'Tokenomics of the Radiator Coin',
+				data: [18, 26, 8, 8, 40],
+				hoverBorderColor: '#458bff',
+				backgroundColor: [
+				'#311155',
+				'#211C7C',
+				'#4581AF',
+				'#60A6BD',
+				'#98D7CF',
+				'#D2EFE0'
+				],
+				hoverOffset: 25
+			}]
+		};
+
+
+
+		const config = {
+			type: 'doughnut',
+			data: data,
+			plugins: {},
+			options: {
+				layout: {
+					padding: 200,
+					autopadding: false,
+				},
+				plugins: {
+					legend: {
+						display: true,
+						position: 'bottom',
+						align: 'center',
+						fullSize: false,
+						labels: {
+							color: '#D2EFE0',
+							boxWidth: 60,
+							boxHeight: 20,
+							padding: 12,
+						},
+						title: {
+							display: false,
+							text: '100.000.000$ RADIATOR',
+						},
+					}
+				}
+			}
+		};
+
+		const tokenomicsChart = new Chart(
+		document.getElementById('tokenomicsChart'),
+		config
+		);
+	</script>
