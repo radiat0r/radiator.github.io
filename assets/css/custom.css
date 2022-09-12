@@ -283,7 +283,7 @@ hr.dashed-line { /* used between projects */
 }
 
 #particles-js {
-    background: #2a57a1;
+
     display: flex;
     vertical-align: bottom;
     min-height: 100vh;
