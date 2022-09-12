@@ -1,7 +1,8 @@
 ---
 layout: null
-title: Stage 1 - Q3 2022
+title: Stage 1 &bull; Q4-2022
 subtitle:
 image: "assets/img/number-1.png"
 ---
-Pushing our Radiator node into the TOP100
+&bull; Promoting our node & project<br>
+&bull; $RDT Airdrops for early Stakers

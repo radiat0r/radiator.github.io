@@ -1,7 +1,8 @@
 ---
 layout: null
-title: Stage 4 - Q3/2023
+title: Stage 4 &bull; Q3-2023
 subtitle:
 image: "assets/img/number-4.png"
 ---
-Partnering with Projects to implement a Reward-Ecosystem within the Radix Network (Q1 2023)
+&bull; Partnering with projects to implement a reward ecosystem within the radix network<br>
+&bull; Promoting Partnerships

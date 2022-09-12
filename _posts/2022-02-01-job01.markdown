@@ -1,7 +1,7 @@
 ---
 layout: null
-title: Stage 3 - Q2/2023
+title: Stage 3 &bull; Q2-2023
 subtitle:
 image: "assets/img/number-3.png"
 ---
-Exchange Listings: Radiator $RDT (Ociswap, DogecubeX, etc)
+&bull; Exchange Listings of Radiator $RDT
