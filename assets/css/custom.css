@@ -119,6 +119,10 @@ div.bonus h1 {
     border: 2px solid #fff
 }
 
+.text--highlight {
+ color:#ff6f00
+}
+
 .header-icons .icon:active, .header-icons .icon:hover, .project-icons .icon:active, .project-icons .icon:hover {
     color: #1a222c;
     background: #fff
@@ -259,6 +263,10 @@ div.bonus h1 {
 }
 
 .stake h1 {
+  text-align: center;
+}
+
+.stake h3 {
   text-align: center;
 }
 
