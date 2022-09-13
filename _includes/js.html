@@ -29,7 +29,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 	<script>
 		const image = new Image();
-		image.src = 'assets/android-chrome-192x192.png';
+		image.src = 'assets/img/logo_white_192.png';
 
 		const backgroundimage = {
 			id: 'custom_canvas_background_image',
@@ -39,7 +39,7 @@
 					const {top, left, width, height} = chart.chartArea;
 					const x = left + width / 2 - image.width / 2;
 					const y = top + height / 2 - image.height / 2;
-					ctx.drawImage(image,  width / 2 + image.width / 2, height / 2 + image.height / 2);
+					ctx.drawImage(image,  x, y);
 				} else {
 					image.onload = () => chart.draw();
 				}
@@ -81,8 +81,7 @@
 			plugins: [backgroundimage],
 			options: {
 				layout: {
-					padding: 200,
-					autopadding: false,
+					autopadding: true,
 				},
 				plugins: {
 					legend: {
@@ -94,7 +93,7 @@
 							color: '#D2EFE0',
 							boxWidth: 60,
 							boxHeight: 20,
-							padding: 12,
+							padding: 20,
 						},
 						title: {
 							display: false,

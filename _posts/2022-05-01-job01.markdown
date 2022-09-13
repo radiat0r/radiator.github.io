@@ -1,0 +1,8 @@
+---
+layout: null
+title: Step 1 &bull; Q4-2022
+subtitle:
+image:
+---
+&bull; Promoting our node & project<br>
+&bull; $RDT Airdrops for early Stakers

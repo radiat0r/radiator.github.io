@@ -1,8 +1,7 @@
 ---
 layout: null
-title: Stage 4 &bull; Q3-2023
+title: Step 5 &bull; Q3-2023
 subtitle:
-image: "assets/img/number-4.png"
+image: "assets/img/logo4.png"
 ---
-&bull; Partnering with projects to implement a reward ecosystem within the radix network<br>
-&bull; Promoting Partnerships
+&bull; Exchange Listings of Radiator $RDT

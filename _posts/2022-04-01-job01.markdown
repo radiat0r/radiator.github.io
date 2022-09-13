@@ -1,8 +1,7 @@
 ---
 layout: null
-title: Stage 1 &bull; Q4-2022
+title: Step 2 &bull; Q4-2022
 subtitle:
-image: "assets/img/number-1.png"
+image: "assets/img/logo1.png"
 ---
-&bull; Promoting our node & project<br>
-&bull; $RDT Airdrops for early Stakers
+&bull; Focus on partnerships<br> 

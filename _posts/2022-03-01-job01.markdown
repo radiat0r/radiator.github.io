@@ -1,7 +1,7 @@
 ---
 layout: null
-title: Stage 2 &bull; Q1-2023
+title: Step 3 &bull; Q1-2023
 subtitle:
-image: "assets/img/number-2.png"
+image: "assets/img/logo2.png"
 ---
-&bull; Focus on establishing partnerships
+&bull; Node in top100

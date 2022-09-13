@@ -109,6 +109,7 @@
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+    font-size: 16px;
 }
 
 @media(min-width:768px) {

@@ -1,7 +1,8 @@
 ---
 layout: null
-title: Stage 3 &bull; Q2-2023
+title: Step 4 &bull; Q2-2023
 subtitle:
-image: "assets/img/number-3.png"
+image: "assets/img/logo3.png"
 ---
-&bull; Exchange Listings of Radiator $RDT
+&bull; Implementing reward system with partnerships<br>
+&bull; Promoting partnerships
