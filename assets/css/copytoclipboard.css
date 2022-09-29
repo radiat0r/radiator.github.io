@@ -2,9 +2,9 @@
 
 pre1 {
  display:block;
- padding:3px;
+ padding:0px;
  margin:0 0 10px;
- font-size:18px;
+ font-size:20px;
  line-height:1.5;
  word-break:break-all;
  word-wrap:break-word;
@@ -38,7 +38,7 @@ pre1 code {
   color: #FFF;
   background-color: rgba(255,255,255,.3);
   border: 0;
-  padding: 5px 10px;
+  padding: 5px 5px;
   cursor: pointer;
 }
 .btn-copy:hover{
@@ -55,6 +55,6 @@ pre1 code {
 }
 
 .highlight, .highlight .w {
-  color: #ff6f00;
+  color: #00C389;
   background-color: #2a57a1;
 }
