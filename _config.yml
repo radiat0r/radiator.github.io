@@ -1,11 +1,11 @@
 # Site settings
-title: 🛠️ radiator 🛠️
+title: ⚡️ RADIATOR ⚡️
 description: A radixDLT based project node.
 url: "http://www.radiator.run" # the base hostname & protocol for your site
 # baseurl: "" # the subpath of your site, e.g. /blog
 
 # User settings
-username: 🛠️ radiator 🛠️
+username: ⚡️ RADIATOR ⚡️
 email: info@radiator.run
 
 # Global settings
@@ -16,4 +16,3 @@ google_analytics_tracking_id: UA-223301828-1
 
 plugins:
   - jekyll-seo-tag
-  
